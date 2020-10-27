@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            display: inline-block;
+            width: 100px;
+            height: 30px;
+            background-color: #5bc0de;
+        }
+        a.selected:before{
+            content:"";
+            display: block;
+            border-width: 2px;
+            border-color: #b00000;
+            border-style: solid;
+            width: 100px;
+            height: 0;
+            position: absolute;
+            top: -1px;
+            margin-left: -5px;
+        }
+    </style>
+</head>
+<body>
+    <a class="productDetailTopPartSelectLink selected" href="#">商品详情</a>
+</body>
+</html>
