@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 12px;
+    min-width: 1200px;
+    font-family: Arial;
+}
+/*ÖÃ¶¥µ¼º½*/
+a{
+    color: #999;
+}
+.redColor{
+    color: #C40000 !important;
+}
+nav.top{
+    background-color: #f2f2f2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e7e7e7;
+}
+nav.top span,nav.top a{
+    color: #999;
+    margin: 0px 10px 0px 10px;
+}
+nav.top a:hover{
+    color: #C40000;
+    text-decoration: none;
+}
+/*¼òÒ×ËÑË÷À¸*/
+div.simpleSearchDiv{
+    background-color: #C40000;
+    width: 300px;
+    margin: 10px 20px 40px;
+    padding: 1px;
+    height: 40px;
+    display: block;
+}
+div.simpleSearchDiv input{
+    width: 225px;
+    border: 1px solid transparent;
+    height: 34px;
+    margin: 2px;
+    outline:none;
+}
+div.simpleSearchDiv button{
+    width: 60px;
+    border: 1px solid transparent;
+    background-color: #C40000;
+    color: white;
+    font-size: 14px;
+    /*  font-weight:bold */;
+}
+div.searchBelow{
+    margin-top: 3px;
+    margin-left: -20px;
+}
+div.searchBelow span{
+    color: #999;
+}
+div.searchBelow a{
+    padding: 0px 20px 0px 20px;
+    font-size: 14px;
+}
+img.simpleLogo{
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    width: 140px;
+}
+a:hover{
+    text-decoration:none;
+    color: #C40000;
+}
+/*Ö§¸¶³É¹¦*/
+div.payed{
+    max-width: 1013px;
+    border: 1px solid  #D4D4D4;
+    margin: 10px auto 20px auto;
+}
+div.payedText{
+    height: 61px;
+    background: #ECFFDC;
+    padding:17px 0px 0px 25px;
+}
+div.payedText span{
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+}
+div.payedAddressInfo{
+    padding: 26px 38px;
+}
+div.payedAddressInfo li{
+    background: transparent url("../img/site/li_dot.png") no-repeat scroll 0px 13px;
+    list-style-type: none;
+    color: #333333;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+span.payedInfoPrice{
+    color: #b10000;
+    font-weight: bold;
+    font-size: 14px;
+}
+div.payedCheckLinkDiv{
+
+}
+a.payedCheckLink{
+    color: #2D8CBA;
+}
+a.payedCheckLink:hover{
+    text-decoration: underline;
+}
+div.payedSeperateLine{
+    border-top: 1px dotted #D4D4D4;
+    margin: 0 31px;
+}
+div.warningDiv{
+    margin: 23px 45px;
+    color: black;
+}
+.boldWord{
+    font-weight: bold;
+}
+/*Ò³½ÅÒ»*/
+div.footer{
+    margin: 0px 0px;
+    border-top: 1px solid #e7e7e7;
+}
+div.footer-ensure{
+    margin: 24px 0px;
+    text-align: center;
+}
+div.footer_desc{
+    border-top: 1px solid #e7e7e7;
+    padding-top: 30px;
+    margin: 0px 20px;
+}
+div.footer_desc div.descColumn{
+    width: 20%;
+    float: left;
+    padding-left: 15px;
+}
+div.footer_desc div.descColumn span.descColumnTitle{
+    color: #646464;
+    font-weight: bold;
+    font-size: 16px;
+}
+div.footer_desc a{
+    display: block;
+    padding-top: 3px;
+}
+div.footer_desc a:hover{
+    color: #c40000;
+    text-decoration: none;
+}
+/*Ò³½Å¶þ*/
+div.copyright{
+    background-color: black;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #C40000;
+}
+div.copyright span.slash{
+    color: white;
+}
+div.footer div.copyright div.white_link a{
+    color: white;
+    padding: 0px 5px;
+}
+div.footer div.copyright div.white_link{
+    padding: 10px 0px;
+    margin-left: 10px;
+}
+div.license{
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+div.license span{
+    color: #A4A4A4;
+}
+div.license div.copyRightYear{
+    margin: 10px 0px;
+    color: #686868;
+}
+img.cateye{
+    margin-left: 20px;
+}

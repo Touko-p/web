@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 12px;
+    min-width: 1200px;
+    font-family: Arial;
+}
+/*µÇÂ¼*/
+div.login{
+    position: relative;
+}
+div.loginLogo{
+    padding: 32px 0;
+}
+img.loginBackgroundImg{
+    display: block;
+    margin: 0 auto;
+}
+div.loginInfo{
+    width: 350px;
+    height: 400px;
+    background: white;
+    position: absolute;
+    right: 150px;
+    top: 180px;
+    padding: 60px 25px 80px 25px;
+}
+div.loginInfoText{
+    font-size: 16px;
+    font-weight: bold;
+    color: #3C3C3C;
+}
+div.loginInput{
+    margin: 20px 0;
+    border: 1px solid #CBCBCB;
+}
+span.loginInfoIcon{
+    margin: 0;
+    background: #CBCBCB;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+span.glyphicon{
+    font-size: 22px;
+    position: relative;
+    left: 9px;
+    top: 9px;
+    color: #606060;
+}
+div.loginInput input{
+    display: inline-block;
+    border: 0px solid transparent;
+    width: 244px;
+    height: 30px;
+    position: relative;
+    left: 6px;
+    top: 5px;
+    outline: none;
+}
+button.redButton{
+    color: white;
+    background: #c40000;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+}
+/*Ò³½ÅÒ»*/
+div.footer{
+    margin: 0px 0px;
+    border-top: 1px solid #e7e7e7;
+}
+div.footer-ensure{
+    margin: 24px 0px;
+    text-align: center;
+}
+div.footer_desc{
+    border-top: 1px solid #e7e7e7;
+    padding-top: 30px;
+    margin: 0px 20px;
+}
+div.footer_desc div.descColumn{
+    width: 20%;
+    float: left;
+    padding-left: 15px;
+}
+div.footer_desc div.descColumn span.descColumnTitle{
+    color: #646464;
+    font-weight: bold;
+    font-size: 16px;
+}
+div.footer_desc a{
+    display: block;
+    padding-top: 3px;
+}
+div.footer_desc a:hover{
+    color: #c40000;
+    text-decoration: none;
+}
+/*Ò³½Å¶þ*/
+div.copyright{
+    background-color: black;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #C40000;
+}
+div.copyright span.slash{
+    color: white;
+}
+div.footer div.copyright div.white_link a{
+    color: white;
+    padding: 0px 5px;
+}
+div.footer div.copyright div.white_link{
+    padding: 10px 0px;
+    margin-left: 10px;
+}
+div.license{
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+div.license span{
+    color: #A4A4A4;
+}
+div.license div.copyRightYear{
+    margin: 10px 0px;
+    color: #686868;
+}
+img.cateye{
+    margin-left: 20px;
+}
